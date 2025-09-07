@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="main-heading-decoration">Dijkstra's Algorithm</h1>
+    <div class="card">
+        <ul>
+            <div class="text-decoration">
+                <li>
+                    It is also called as single source shortest path Algorithm.
+                </li>
+            </div>
+        </ul>
+        <div style="margin-left:10%;">
+            <h1>Time Complexity :</h1>
+            <div class="centering-2">
+                <button class="box-2">&Theta;((V+E)logV)</button>
+            </div>
+            <h1>Space Complexity :</h1>
+            <div class="centering-2">
+                <button class="box-2">&Theta;(V + E)</button>
+            </div>
+        </div>
+        <h1 class="example-decoration">Example : </h1>
+        <img src="Screenshot 2025-09-08 020453.png" class="image" />
+        <div class="centering">
+            <div class="single-table-measure">
+                <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th style="text-align: center;">Node</th>
+                            <th style="text-align: center;">shortest path</th>
+                            <th style="text-align: center;">cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">A</td>
+                            <td style="text-align: center;">----</td>
+                            <td style="text-align: center;">0</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">B</td>
+                            <td style="text-align: center;">A -> B</td>
+                            <td style="text-align: center;">10</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">C</td>
+                            <td style="text-align: center;">A -> B -> D -> C</td>
+                            <td style="text-align: center;">20</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">D</td>
+                            <td style="text-align: center;">A -> B -> D</td>
+                            <td style="text-align: center;">15</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">E</td>
+                            <td style="text-align: center;">A -> B -> D -> C -> E</td>
+                            <td style="text-align: center;">30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-between">
+        <a href="https://shyam044.github.io/Minimum-Spanning-Tree/" class="btn btn-danger"
+            style="height:35px; margin-bottom:20px;">Prev</a>
+        <div class="embed-responsive embed-responsive-16by9" style="height:25vh; width:25vw;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S8PbTtdBIfA?rel=0"
+                allowfullscreen></iframe>
+        </div>
+        <a href="" class="btn btn-primary" style="height:35px;">Next</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
